@@ -33,7 +33,7 @@ main {
   justify-content: space-between;
   @media screen and (max-width:768px) {
     padding: 0 24px;
-    
+
   }
 }
 
@@ -54,7 +54,7 @@ main {
 }
 
 @media only screen and (max-width: 768px) {
-  
+
   .nav-logo{
     display: none;
   }
@@ -70,7 +70,7 @@ main {
     font-size: 14px;
     font-weight: 500;
   }
-  
+
 }
 .home-wrapper {
   width: 100%;
@@ -94,7 +94,7 @@ main {
   @media screen and (max-width:768px) {
     flex-direction: column;
     align-items: center;
-    
+
   }
 }
 
@@ -105,7 +105,7 @@ main {
   gap: 20px;
   @media screen and (max-width:768px){
   width: 80vw;
-  align-items: center;    
+  align-items: center;
   }
 }
 
@@ -116,7 +116,7 @@ main {
   text-align: left;
   @media screen and (max-width:768px) {
     text-align: center;
-    
+
   }
 }
 .home-text2 {
@@ -131,13 +131,14 @@ main {
   font-weight: 400;
   @media screen and (max-width:768px) {
     text-align: center;
-    
+
   }
 }
 
 .home-social {
   display: flex;
   gap: 30px;
+  align-items: center;
 }
 
 .home-social-icon {
@@ -196,7 +197,7 @@ main {
   width: 100%;
   display: flex;
   gap: 30px;
-  
+
 }
 .profession-header {
   margin-bottom: 50px;
@@ -218,7 +219,7 @@ main {
     flex-direction: column-reverse;
     align-items: center;
     padding: 24px;
-    
+
   }
 }
 
@@ -227,13 +228,13 @@ main {
   height: 500px;
   @media screen and (max-width:768px) {
     width: 80vw;
-    
+
   }
 }
 .profession-details-left img {
   width: 100%;
   height: 100%;
-  
+
 }
 
 .profession-details-right {
@@ -250,7 +251,7 @@ main {
   color: #388087;
   @media screen and (max-width:768px) {
    text-align: center;
-    
+
   }
 }
 .profession-details-right-icons {
@@ -300,7 +301,7 @@ main {
   @media screen and (max-width:768px) {
     padding: 24px;
     align-items: center;
-    
+
   }
 }
 
@@ -319,7 +320,7 @@ main {
   color: #388087;
   @media screen and (max-width:768px) {
     text-align: center;
-    
+
   }
 }
 
@@ -331,7 +332,7 @@ main {
   color: #6FB3B8;
   @media screen and (max-width:768px) {
    text-align: center;
-    
+
   }
 }
 .experience-details{
@@ -341,7 +342,7 @@ main {
 }
 .experience-card {
   display: grid;
-  grid-template-columns: repeat(12, 1fr); 
+  grid-template-columns: repeat(12, 1fr);
   background: #C2EDCE;
   border-radius: 10px;
   padding: 20px;
@@ -360,7 +361,7 @@ main {
   @media screen and (max-width:768px) {
     font-size: 12px;
     text-align: center;
-    
+
   }
 }
 .experience-card-middle {
@@ -375,7 +376,7 @@ main {
   padding-bottom: 10px;
   @media screen and (max-width:768px) {
     font-size: 16px;
-    
+
   }
 }
 .experience-card-middle  ul{
@@ -404,7 +405,7 @@ main {
   @media screen and (max-width:768px) {
     text-align: center;
     font-size: 12px;
-    
+
   }
 }
 
@@ -428,7 +429,7 @@ main {
   align-items: center;
   @media screen and (max-width:768px) {
     padding: 24px;
-    
+
   }
 }
 
@@ -524,7 +525,7 @@ color: var(--gray-dark-900, #F9FAFB);
 font-size: 1.25rem;
 font-style: normal;
 font-weight: 600;
-line-height: 1.75rem; 
+line-height: 1.75rem;
 }
 
 .project-card-right-description p{
@@ -543,7 +544,7 @@ line-height: 1.5rem; /* 150% */
   gap: 10px;
   @media screen and (max-width:768px) {
     flex-wrap: wrap;
-    
+
   }
 }
 
@@ -577,7 +578,7 @@ color: #388087;
   flex-direction: column;
   @media screen and (max-width:768px) {
     padding: 24px;
-    
+
   }
 }
 
@@ -614,7 +615,7 @@ color: #388087;
 .contact-details .contact-left{
  @media screen and (max-width:768px) {
   display: none;
-  
+
  }
 }
 
@@ -699,10 +700,8 @@ color: #388087;
   font-family: Poppins;
   font-size: 18px;
   font-weight: 500;
-  
+
 }
 .footer-wrapper .footer-container .footer-content p span{
   color: red;
 }
-
-
